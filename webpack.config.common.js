@@ -16,12 +16,13 @@ module.exports = {
     ],
     module: {
         rules: [
+
             { 
-                test: /\.m?js$/,
+                test: /\.(ts|js)x?$/,
                 exclude: /(node_modules|bower_components)/,
-                use: {
-                  loader: 'babel-loader'
-                }
+                use: [
+                    'babel-loader'
+                ]
             },
 
             {
