@@ -1,0 +1,11 @@
+{
+    "extends": [
+      "eslint:recommended",
+      "plugin:vue/recommended",
+      "plugin:prettier/recommended",
+      "plugin:vue/base",
+      "plugin:vue/essential",
+      "plugin:vue/strongly-recommended"
+
+    ]
+}
