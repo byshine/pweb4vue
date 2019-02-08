@@ -1,19 +1,11 @@
 <template>
-  <h1>Hello World</h1>
+  <div id="app">
+    <h1>Hello World</h1>
+  </div>
 </template>
 
 <script>
-import { mapState } from "vuex";
-export default {
-  computed: {
-    ...mapState("user", {
-      isLoggedIn: "isLoggedIn"
-    })
-  }
-};
+export default {};
 </script>
 
-<style lang="sass">
-h1
-    color: blue
-</style>
+<style lang="sass"></style>
