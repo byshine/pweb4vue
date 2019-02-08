@@ -1,4 +1,5 @@
-import styles from "./sass/styles.sass";
+import {} from "normalize.css";
+import {} from "./sass/styles.sass";
 import Vue from "vue";
 import App from "./components/App.vue";
 import store from "./store";

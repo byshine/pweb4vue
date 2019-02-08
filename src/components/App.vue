@@ -1,11 +1,21 @@
-<template>
-  <div id="app">
-    <h1>Hello World</h1>
-  </div>
+<template lang="pug">
+
+  #app.full-height.full-width
+    Nav
+    Main
+
 </template>
 
 <script>
-export default {};
+import Nav from "./Nav.vue";
+import Main from "./Main.vue";
+
+export default {
+  components: {
+    Main,
+    Nav
+  }
+};
 </script>
 
-<style lang="sass"></style>
+<style lang="sass" scoped></style>
